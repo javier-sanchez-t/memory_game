@@ -24,6 +24,11 @@ const gameCards = [
     name: "Bulbasaur",
     image: "./images/bulbasaur.png",
   },
+  {
+    id: 5,
+    name: "Chikorita",
+    image: "./images/chikorita.png",
+  },
 ];
 
 export default gameCards;
