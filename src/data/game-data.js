@@ -7,22 +7,22 @@ const gameCards = [
   {
     id: 1,
     name: "Pikachu",
-    image: "",
+    image: "./images/pikachu.png",
   },
   {
     id: 2,
     name: "Charmander",
-    image: "",
+    image: "./images/charmander.png",
   },
   {
     id: 3,
     name: "Squirtle",
-    image: "",
+    image: "./images/squirtle.png",
   },
   {
     id: 4,
     name: "Bulbasaur",
-    image: "",
+    image: "./images/bulbasaur.png",
   },
 ];
 

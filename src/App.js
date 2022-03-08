@@ -4,13 +4,13 @@ import gameCards from "./data/game-data";
 import Card from "./components/card";
 
 const prepareGameData = (gameData) => {
-  const data = [...gameData, ...gameData];
+  const data = [...gameData, ...gameData].sort(() => 0.5 - Math.random());
 
   return data;
 };
 
 function App() {
-  const gameData = prepareGameData(gameCards)
+  const gameData = prepareGameData(gameCards);
 
   return (
     <div className="App">
