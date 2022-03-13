@@ -1,15 +1,8 @@
-import { useState } from "react";
 import "./styles.css";
 
-const Card = ({ name, image }) => {
-  const [display, setDisplay] = useState(false);
-
-  const onclickHandler = () => {
-    setDisplay(true);
-  };
-
+const Card = ({ index, name, image, display, onClickHandler }) => {
   return (
-    <div onClick={onclickHandler} className="card">
+    <div className="card" onClick={() => onClickHandler(index)}>
       {!display && (
         <img className="pokeball" src="./images/pokeball.png" alt="Pokeball" />
       )}
