@@ -1,9 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(4, auto);;
-  grid-auto-rows: 330px;
-  column-gap: 4rem;
-  row-gap: 4rem;
-  align-items: center;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
   padding: 5% 20%;
 }

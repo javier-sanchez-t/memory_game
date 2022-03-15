@@ -8,11 +8,11 @@ const Card = ({ index, name, image, display, onClickHandler }) => {
       )}
 
       {display && (
-        <div>
+        <>
           <img className="pokemon" src={image} alt={name} />
 
           <div className="name">{name}</div>
-        </div>
+        </>
       )}
     </div>
   );
